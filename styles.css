@@ -1,0 +1,42 @@
+.body {
+    background-image: url('https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_700/MTkzODAzNTgyODUxMDY1MzI4/cool-css-backgrounds.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+.calculator {
+    width: 300px;
+    margin: 100px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.display {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+.keypad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+button {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+button:active {
+    background-color: lightgray;
+}
